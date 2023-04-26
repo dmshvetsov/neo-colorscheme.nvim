@@ -1,0 +1,319 @@
+information:
+  name: neo
+  background: dark
+  author: "Dmitry Shvetsov <shvetsovdm@gmail.com>"
+
+palette:
+  fg: "#ffffff"
+  bg: "#18181b"
+
+  neo0: "#18181b"
+  neo1: "#454545"
+  neo2: "#747474"
+  neo3: "#818181"
+  neo3_gui_bright: "#616161"
+
+  neo4: "#ffffff"
+  neo5: "#cccccc"
+  neo6: "#aaaaaa"
+
+  neo7: "#a2ffc1"
+  neo8: "#d5ffe3"
+  neo9: "#c3f5f1"
+  neo10: "#98ede7"
+
+  neo11: "#d9255f"
+  neo12: "#edbd98"
+  neo13: "#fff0a2"
+  neo14: "#e0ffa2"
+  neo15: "#c1a2ff"
+
+  line_grey: "#5C6370"
+  cursor_grey: "#2C323C"
+  special_grey: "#3B4048"
+
+# vim colorscheme highlights, value format "<fg> <bg> ibu"
+# if value need to be omitted use `-`, e,g, "neo4 - i"
+highlights:
+  # Editor
+  ColorColumn: "- neo1"
+  Cursor: "neo0 neo4"
+  CursorLine: "- neo1"
+  Error: "neo4 neo11"
+  LineNr: "neo3"
+  MatchParen: "neo8 neo3"
+  NonText: "neo2"
+  Normal: "fg bg"
+  Pmenu: "neo4 neo2"
+  PmenuSbar: "neo4 neo2"
+  PmenuSel: "neo8 neo3"
+  PmenuThumb: "neo8 neo3"
+  SpecialKey: "neo3"
+  SpellBad: "neo11 neo0 u"
+  SpellCap: "neo11 neo0 u"
+  SpellLocal: "neo5 neo0 u"
+  SpellRare: "neo6 neo0 u"
+  Visual: "- neo2"
+  VisualNOS: "- neo2"
+  QuickFixLine: "bg neo13"
+  Terminal: "neo6 bg"
+
+  # Neovim checkhealth
+  healthError: "neo11 neo1"
+  healthSuccess: "neo14 neo1"
+  healthWarning: "neo13 neo1"
+
+  # Gutter
+  CursorColumn: "- neo1"
+  CursorLineNr: "neo4"
+  Folded: "neo3 neo0"
+  FoldColumn: "neo3 neo0"
+  SignColumn: "neo1 neo0"
+
+  # Navigation
+  Directory: "neo8"
+
+  # Prompt/Status
+  EndOfBuffer: "neo1"
+  ErrorMsg: "neo4 neo11"
+  ModeMsg: "neo4"
+  MoreMsg: "neo8"
+  Question: "neo4"
+  StatusLine: "neo6 neo3"
+  StatusLineNC: "neo4 neo3"
+  StatusLineTerm: "neo8 neo3"
+  StatusLineTermNC: "neo4 neo3"
+  WarningMsg: "neo0 neo13"
+  WildMenu: "neo8 neo1"
+
+  # Search (using high contrast search)
+  IncSearch: "neo0 neo13 u"
+  Search: "neo0 neo13"
+
+  # Tabs
+  TabLine: "neo4 neo1"
+  TabLineFill: "neo4 neo1"
+  TabLineSel: "neo8 neo3"
+
+  # Window
+  Title: "neo4"
+  VertSplit: "neo2 neo0"
+
+  # Language Base Groups
+  Boolean: "neo15"
+  Character: "neo14"
+  Comment: "neo3_gui_bright - i"
+  Conditional: "neo10 - i"
+  Constant: "neo15"
+  Define: "neo10"
+  Delimeter: "neo6"
+  Exception: "neo15"
+  Float: "neo15"
+  Function: "neo5"
+  Identifier: "neo4"
+  Include: "neo10"
+  Keyword: "neo10 - i"
+  Label: "neo8"
+  Number: "neo15"
+  Operator: "neo13"
+  PreProc: "neo13"
+  Repeat: "neo9"
+  Special: "neo5"
+  SpecialChar: "neo11"
+  SpecialComment: "neo8 - i"
+  Statement: "neo15"
+  StorageClass: "neo10"
+  String: "neo14"
+  Structure: "neo13"
+  Tag: "neo4"
+  Todo: "neo12"
+  Type: "neo15"
+  Typedef: "neo10"
+  Macro: "neo15"
+  PreCondit: "neo10"
+
+  # -- Start Treesitter --
+  # Misc
+  TSError: "neo11 - u"
+  TSPunctDelimiter: "neo9"
+  TSPunctBracket: "neo6"
+  TSPunctSpecial: "neo6"
+  # Constants
+  TSConstant: "neo8"
+  TSConstBuiltin: "neo9"
+  TSConstMacro: "neo7"
+  TSStringRegex: "neo14"
+  TSString: "neo14"
+  TSStringEscape: "neo8"
+  TSCharacter: "neo14"
+  TSNumber: "neo15"
+  TSBoolean: "neo15"
+  TSFloat: "neo15"
+  TSAnnotation: "neo12"
+  TSAttribute: "neo7"
+  TSNamespace: "neo6"
+  # Functions
+  TSFuncBuiltin: "neo8"
+  TSFunction: "neo8"
+  TSFuncMacro: "neo8"
+  TSParameter: "neo5"
+  TSParameterReference: "neo9"
+  TSMethod: "neo8"
+  TSField: "neo8"
+  TSProperty: "neo7"
+  TSConstructor: "neo7"
+  # Keywords
+  TSConditional: "neo9"
+  TSRepeat: "neo15"
+  TSLabel: "neo8"
+  TSKeyword: "neo9"
+  TSKeywordFunction: "neo9"
+  TSKeywordOperator: "neo9"
+  TSOperator: "neo9"
+  TSException: "neo9"
+  TSType: "neo15"
+  TSTypeBuiltin: "neo9"
+  TSStructure: "#FF1"
+  TSInclude: "neo9"
+  # Variable
+  TSVariable: "neo5"
+  TSVariableBuiltin: "neo9"
+  # Text
+  TSText: "neo14"
+  TSStrong: "neo14"
+  TSEmphasis: "neo14"
+  TSUnderline: "neo14"
+  TSTitle: "neo3_gui_bright"
+  TSLiteral: "neo3_gui_bright - i"
+  TSURI: "neo4"
+  # Tags
+  TSTag: "neo9"
+  TSTagDelimiter: "line_grey"
+  # -- END Treesitter --
+
+  # "+- Neovim Support -+
+  healthError: "neo11 bg"
+  healthSuccess: "neo14 bg"
+  healthWarning: "neo13 bg"
+  TermCursorNC: "- bg"
+
+  # "+- Neovim Diagnostics API -+
+  DiagnosticWarn: "neo12 bg"
+  DiagnosticError: "neo11 bg"
+  DiagnosticInfo: "neo8 bg"
+  DiagnosticHint: "neo10 bg"
+  DiagnosticUnderlineWarn: "neo13 bg"
+  DiagnosticUnderlineError: "neo11 bg"
+  DiagnosticUnderlineInfo: "neo8 bg"
+  DiagnosticUnderlineHint: "neo10 bg"
+
+  # "+- Neovim DocumentHighlight -+
+  LspReferenceText: "- bg"
+  LspReferenceRead: "- bg"
+  LspReferenceWrite: "- bg"
+
+  # "+- Neovim LspSignatureHelp -+
+  LspSignatureActiveParameter: "neo8"
+
+  # -- START Languages --
+  # HTML (keep consistent with Markdown, below)
+  htmlArg: "neo8"
+  htmlBold: "neo8 - b"
+  htmlEndTag: "neo6"
+  htmlH1: "neo10"
+  htmlH2: "neo10"
+  htmlH3: "neo10"
+  htmlH4: "neo10"
+  htmlH5: "neo10"
+  htmlH6: "neo10"
+  htmlItalic: "neo15 - i"
+  htmlLink: "neo7 - u"
+  htmlSpecialChar: "neo8"
+  htmlSpecialTagName: "neo10"
+  htmlTag: "neo6"
+  htmlTagN: "neo10"
+  htmlTagName: "neo10"
+  htmlTitle: "neo6"
+
+  # Markdown (keep consistent with HTML, above)
+  markdownBlockquote: "line_grey"
+  markdownBold: "neo8 - b"
+  markdownCode: "neo14"
+  markdownCodeBlock: "neo14"
+  markdownCodeDelimiter: "neo14"
+  markdownH1: "neo10"
+  markdownH2: "neo10"
+  markdownH3: "neo10"
+  markdownH4: "neo10"
+  markdownH5: "neo10"
+  markdownH6: "neo10"
+  markdownHeadingDelimiter: "neo11"
+  markdownHeadingRule: "line_grey"
+  markdownId: "neo15"
+  markdownIdDeclaration: "neo10"
+  markdownIdDelimiter: "neo15"
+  markdownItalic: "neo15 - i"
+  markdownLinkDelimiter: "neo15"
+  markdownLinkText: "neo10"
+  markdownListMarker: "neo11"
+  markdownOrdeneo11ListMarker: "neo11"
+  markdownRule: "line_grey"
+  markdownUrl: "neo7 - u"
+
+  # Git
+  DiffAdd: "neo14 neo1"
+  DiffChange: "neo13 neo1"
+  DiffDelete: "neo11 neo1"
+  DiffText: "neo9 neo1"
+  diffAdded: "neo14 neo1"
+  diffChanged: "neo13 neo1"
+  diffRemoved: "neo11 neo1"
+  diffFileId: "neo10 - br"
+  diffFile: "special_grey"
+  diffNewFile: "neo14"
+  diffOldFile: "neo11"
+  gitconfigVariable: "neo7"
+  debugPc: "- neo7"
+  debugBreakpoint: "neo11 - r"
+
+  # GitGutter
+  GitGutterAdd: "neo14"
+  GitGutterChange: "neo13"
+  GitGutterChangeDelete: "neo11"
+  GitGutterDelete: "neo11"
+
+  # Fugitive
+  gitcommitDiscardedFile: "neo11"
+  gitcommitSelectedFile: "neo14"
+  gitcommitUntrackedFile: "neo11"
+
+  # Nvim LSP
+  LSPDiagnosticsWarning: "neo13"
+  LspDiagnosticsDefaultError: "neo11"
+  LspDiagnosticsInformation: "neo8"
+  LspDiagnosticsHint: "neo10"
+  LspDiagnosticsUnderlineWarning: "neo13"
+  LspDiagnosticsUnderlineError: "neo11"
+  LspDiagnosticsUnderlineInformation: "neo8"
+  LspDiagnosticsUnderlineHint: "neo10"
+
+  # VimWiki
+  VimwikiHeader1: "neo12 - b"
+  VimwikiHeader2: "neo14 - b"
+  VimwikiHeader3: "neo10 - b"
+  VimwikiHeader4: "neo7 - b"
+  VimwikiHeader5: "neo13 - b"
+  VimwikiHeader6: "neo15 - b"
+  VimwikiLink: "neo8"
+  VimwikiHeaderChar: "line_grey"
+  VimwikiHR: "neo13"
+  VimwikiList: "neo12"
+  VimwikiTag: "neo12"
+  VimwikiMarkers: "line_grey"
+
+  # JavaScript
+  jsGlobalNodeObjects: "neo15"
+  jsFlowObjectKey: "neo7"
+
+  # Rust
+  rustFoldBraces: "neo7"
