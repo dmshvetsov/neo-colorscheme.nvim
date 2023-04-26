@@ -232,3 +232,12 @@ hi VimwikiMarkers guifg=#5c6370 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cte
 hi jsGlobalNodeObjects guifg=#c1a2ff ctermfg=147 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFlowObjectKey guifg=#a2ffc1 ctermfg=157 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rustFoldBraces guifg=#a2ffc1 ctermfg=157 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssAttributeSelector guifg=#d5ffe3 ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssDefinition guifg=#d5ffe3 ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssIdentifier guifg=#d5ffe3 ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssStringQ guifg=#d5ffe3 ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssTextAttr guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssAttr guifg=#ffffff ctermfg=231 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssBraces guifg=#d5ffe3 ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssProp guifg=#d5ffe3 ctermfg=194 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssTagName guifg=#a2ffc1 ctermfg=157 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
