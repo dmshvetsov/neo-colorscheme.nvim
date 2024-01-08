@@ -195,11 +195,14 @@ hi DiffAdd guifg=#e0ffa2 ctermfg=193 guibg=#454545 ctermbg=238 gui=NONE cterm=NO
 hi DiffChange guifg=#fff0a2 ctermfg=229 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
 hi DiffDelete guifg=#e25784 ctermfg=168 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
 hi DiffText guifg=#c3f5f1 ctermfg=195 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
+hi DiffAdded guifg=#e0ffa2 ctermfg=193 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
 hi diffAdded guifg=#e0ffa2 ctermfg=193 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
-hi diffChanged guifg=#fff0a2 ctermfg=229 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
+hi @text.diff.add guifg=#e0ffa2 ctermfg=193 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
+hi DiffRemoved guifg=#e25784 ctermfg=168 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
 hi diffRemoved guifg=#e25784 ctermfg=168 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
+hi @text.diff.delete guifg=#e25784 ctermfg=168 guibg=#454545 ctermbg=238 gui=NONE cterm=NONE
+hi DiffFile guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffFileId guifg=#98ede7 ctermfg=122 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
-hi diffFile guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffNewFile guifg=#e0ffa2 ctermfg=193 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffOldFile guifg=#e25784 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitconfigVariable guifg=#a2ffc1 ctermfg=157 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
